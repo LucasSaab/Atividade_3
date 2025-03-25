@@ -1,6 +1,7 @@
 programa {
   funcao inicio() {
-    inteiro x, y, soma
+
+    inteiro x, y, soma, mult
 
     escreva("Digite um número: ")
     leia(x)
@@ -9,6 +10,10 @@ programa {
     leia(y)
 
     soma = x + y
-    escreva("A soma é: ", soma)
+    escreva("O resultado da soma resulta em: ", soma)
+    
+    mult = x * y
+    escreva ("O resultado da multiplicação resulta em:" + r)
+
   }
 }
