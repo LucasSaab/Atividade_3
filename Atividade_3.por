@@ -14,5 +14,6 @@ programa {
     
     mult = x * y
     escreva ("O resultado da multiplicação resulta em:" + r)
+
   }
 }
