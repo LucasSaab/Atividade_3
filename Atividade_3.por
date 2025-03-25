@@ -1,11 +1,18 @@
 programa {
   funcao inicio() {
-        inteiro c, d, r
-    escreva ("Insira um número para a multiplicação: ")
-    leia (c)
-    escreva ("Insira outro número para a multiplicação: ")
-    leia (d)
-    r = c * d
-    escreva ("O resultado é:" + r)
+
+    inteiro x, y, soma, mult
+
+    escreva("Digite um número: ")
+    leia(x)
+
+    escreva("Digite um segundo número: ")
+    leia(y)
+
+    soma = x + y
+    escreva("O resultado da soma resulta em: ", soma)
+    
+    mult = x * y
+    escreva ("O resultado da multiplicação resulta em:" + r)
   }
 }
